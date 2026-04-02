@@ -1,0 +1,13 @@
+{
+  "log_types": [
+    {
+      "name": "asset.download.completed",
+      "label": "Number of downloads: "
+    },
+    {
+      "name": "publiclink.requested",
+      "label": "Number of public link views: "
+    }
+  ],
+  "header_label": "Report Data"
+}

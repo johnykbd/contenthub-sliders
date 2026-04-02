@@ -1,0 +1,12 @@
+// TODO:
+// 1. Add the config prop searchIdentifier in the external components admin page
+{
+    "searchIdentifier": "" //Identifier of the search component
+}
+
+
+// 2. Go to admin/entitymgmt/entity/{searchComponentId}
+// 3. In the System Settings, add following entry at the very top
+"advanced": {
+    "waitForEvent": true
+}

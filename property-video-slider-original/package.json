@@ -1,0 +1,22 @@
+{
+  "name": "property-video-slider-original",
+  "version": "1.0.0",
+  "description": "Content Hub external component: video slider reading from PropertyImagesOrg.Invariant.urls",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --mode production --watch",
+    "develop": "npx http-server dist --cors"
+  },
+  "dependencies": {
+    "@sitecore/sc-contenthub-webclient-sdk": "^1.2.41",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-loader": "^9.4.1",
+    "typescript": "5.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.0"
+  }
+}

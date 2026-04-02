@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "build": "node build.js",
+    "develop": "npx http-server dist --ssl --cors=*"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "redux": "^4.2.1",
+    "video-react": "^0.16.0"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^18.2.7",
+    "@types/video-react": "^0.15.1",
+    "esbuild": "^0.19.2",
+    "esbuild-sass-plugin": "^2.13.0"
+  },
+  "main": "src/index.js"
+}
